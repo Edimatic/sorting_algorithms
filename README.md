@@ -5,15 +5,15 @@ Sorting algorithms are techniques used to arrange elements in a specific order w
 
 Here are some common sorting algorithms in C along with their average-case time complexities in Big O notation:
 
-        Bubble Sort: Time Complexity: O(n^2)
+	Bubble Sort: Time Complexity: O(n^2)
 
-        Selection Sort: Time Complexity: O(n^2)
+	Selection Sort: Time Complexity: O(n^2)
 
-        Insertion Sort: Time Complexity: O(n^2)
+	Insertion Sort: Time Complexity: O(n^2)
 
-        Merge Sort: Time Complexity: O(n log n)
+	Merge Sort: Time Complexity: O(n log n)
 
-        Quick Sort: Time Complexity: O(n log n) (average case)
+	Quick Sort: Time Complexity: O(n log n) (average case)
 
 	Bitonic sort: Time Complexity: O(log^2(n))
 

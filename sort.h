@@ -13,6 +13,7 @@
  * @false: Equals 0.
  * @true: Equals 1.
  */
+
 typedef enum bool
 {
 	false = 0,
@@ -26,6 +27,7 @@ typedef enum bool
  * @prev: Pointer to the previous element of the list
  * @next: Pointer to the next element of the list
  */
+
 typedef struct listint_s
 {
 	const int n;
