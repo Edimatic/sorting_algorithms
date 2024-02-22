@@ -48,13 +48,13 @@ size_t lomuto_partition(int *array, ssize_t low, ssize_t high, size_t size);
 void quicksort(int *array, ssize_t low, ssize_t high, size_t size);
 void quick_sort(int *array, size_t size);
 
-void swap_nodes(listint_t **list, listint_t **node1, listint_t **node2);
+void swap_nodes_(listint_t **list, listint_t **node1, listint_t **node2);
 void swap_node_ahead(listint_t **list, listint_t **eddi, listint_t **node2);
 void swap_node_behind(listint_t **list, listint_t **eddi, listint_t **node2);
 void cocktail_sort_list(listint_t **list);
+void merge_subarr(int *subarr, int *buff, size_t front, size_t mid, size_t back);
 
-void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
-		size_t back);
+void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2);
 void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
 void merge_sort(int *array, size_t size);
 
